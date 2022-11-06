@@ -1,0 +1,6 @@
+[submodule "esn-pwa-backend"]
+	path = esn-pwa-backend
+	url = git@github.com:Lomolisso/esn-pwa-backend.git
+[submodule "esn-pwa-frontend"]
+	path = esn-pwa-frontend
+	url = git@github.com:Lomolisso/esn-pwa-frontend.git
