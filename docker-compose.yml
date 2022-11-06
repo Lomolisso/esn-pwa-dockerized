@@ -23,6 +23,8 @@ services:
       - POSTGRES_USER=${DATABASE_USER}
       - POSTGRES_PASSWORD=${DATABASE_PASS}
       - POSTGRES_DATABASE=${DATABASE_NAME}
+    ports:
+      - "5432:5432"
     
   esn-pwa-backend:
     container_name: esn-pwa-backend
